@@ -15,11 +15,11 @@ public class ZeroSum {
     }
 
     public int[] getZeroSumPair(){
-        int[] rc = new int[2];
 
         for(int i = 0; i < this.arr.length; i++){
             for(int j = i + 1; j < this.arr.length; j++){
                 if(this.arr[i] + this.arr[j] == 0){
+                    int[] rc = new int[2];
                     rc[0] = this.arr[i];
                     rc[1] = this.arr[j];
                     return rc;
@@ -27,7 +27,7 @@ public class ZeroSum {
             }
         }
 
-        return rc;
+        return null;
     }
 
 
