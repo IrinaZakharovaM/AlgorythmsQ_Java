@@ -2,6 +2,10 @@ package arrays;
 
 import java.util.Arrays;
 
+/**
+ * Smallest difference between numbers in the given array
+ */
+
 public class SmallestDiff {
 
     private int[] arr;

@@ -1,5 +1,9 @@
 package arrays;
 
+/**
+ * Longest subsequence of the given number in the given array
+ */
+
 public class LongestSubsequence {
 
     private int number;
