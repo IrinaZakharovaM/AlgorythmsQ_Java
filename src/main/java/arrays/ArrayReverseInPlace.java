@@ -13,9 +13,8 @@ public class ArrayReverseInPlace {
      */
 
 
-    /**
+    /*
      * We define first and last index and run through the half of the array and swap elements
-     * @param arr
      */
 
     // O(n/2) O(n) Linear running time
